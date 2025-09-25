@@ -1,0 +1,23 @@
+body {names of characters or warriors
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#scoreboard { scoreboard for the game
+    font-size: 2em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#pongCanvas {fighting techniques 
+    background: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px #000d;
+}
