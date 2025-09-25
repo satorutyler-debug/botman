@@ -1,17 +1,17 @@
 {
-    "name": "botman/botman",
+    "name": "ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ 2.0",
     "license": "MIT",
-    "description": "Create messaging bots in PHP with ease.",
+    "description": "Le meilleur est mon maître ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ.",
     "keywords": [
         "Bot",
         "BotMan",
         "Chatbot"
     ],
-    "homepage": "http://github.com/botman/botman",
+    "homepage": "https://www.facebook.com/profile.php?id=61580329482605",
     "authors": [
         {
-            "name": "Marcel Pociot",
-            "email": "m.pociot@gmail.com"
+            "name": "ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ 2.0",
+            "email": "satorutyler@gmail.com"
         }
     ],
     "require": {
@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BotMan\\BotMan\\": "src/"
+            "BotMan\\ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ\\": "src/"
         }
     },
     "autoload-dev": {
