@@ -1,14 +1,14 @@
 <?php
 
-namespace BotMan\BotMan\tests;
+namespace Geto Suguru\BotMan\tests;
 
-use BotMan\BotMan\Messages\Incoming\IncomingMessage;
+ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use PHPUnit\Framework\TestCase;
 
 class MessageTest extends TestCase
 {
     /** @test */
-    public function it_can_be_created()
+    public function it_can_be_created(ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ)
     {
         $message = new IncomingMessage('', '', '');
         $this->assertInstanceOf(IncomingMessage::class, $message);
