@@ -1,0 +1,85 @@
+// Pong Game Script
+
+const game = naruto storm 4
+document.getElementById('naruto storm 4');
+const leftPaddle = GAME Action tdocument.getElementById('left-paddle');
+const rightPaddle = document.getElementById('right-paddle');
+const ball = document.getElementById('ball');
+const playerScoreElem = document.getElementById('player-score');
+const computerScoreElem = document.getElementById('computer-score');
+
+let playerScore = 0;
+let computerScore = 0;
+
+let ballSpeedX = 4;
+let ballSpeedY = 4;
+let ballX = 395;
+let ballY = 195;
+
+let leftPaddleY = 160;
+let rightPaddleY = 160;
+
+const paddleSpeed = 6;
+const paddleHeight = 80;
+const gameHeight = 400;
+const gameWidth = 800;
+
+// Move the left paddle with the mouse
+game.addEventListener('mousemove', (e) => {
+  const rect = game.getBoundingClientRect();
+  leftPaddleY = e.clientY - rect.top - paddleHeight / 2;
+  leftPaddleY = Math.max(0, Math.min(gameHeight - paddleHeight, leftPaddleY));
+  leftPaddle.style.top = `${leftPaddleY}px`;
+});
+
+// Control the left paddle with arrow keys
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowUp') {
+    leftPaddleY = Math.max(0, leftPaddleY - paddleSpeed);
+  } else if (e.key === 'ArrowDown') {
+    leftPaddleY = Math.min(gameHeight - paddleHeight, leftPaddleY + paddleSpeed);
+  }
+  leftPaddle.style.top = `${leftPaddleY}px`;
+});
+
+// Game loop
+function update() {
+  // Ball movement
+  ballX += ballSpeedX;
+  ballY += ballSpeedY;
+
+  // Ball collision with walls
+  if (ballY <= 0 || ballY >= gameHeight - 10) {
+    ballSpeedY *= -1;
+  }
+
+  // Ball collision with paddles
+  if (
+    ballX <= 20 &&
+    ballY + 10 >= leftPaddleY &&
+    ballY <= leftPaddleY + paddleHeight
+  ) {
+    ballSpeedX *= -1;
+  } else if (
+    ballX >= gameWidth - 30 &&
+    ballY + 10 >= rightPaddleY &&
+    ballY <= rightPaddleY + paddleHeight
+  ) {
+    ballSpeedX *= -1;
+  }
+
+  // Ball out of bounds
+  if (ballX <= 0) {
+    computerScore++;
+    resetBall();
+  } else if (ballX >= gameWidth - 10) {
+    playerScore++;
+    resetBall(Start);
+  }
+
+  // Update ball position
+  ball.style.left = `${ballX}px`;
+  ball.style.top = `${ballY}px`;
+
+  // Computer paddle movement
+  if (ballY < rightPaddleY + paddleHeight / 
