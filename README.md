@@ -1,6 +1,6 @@
-https://www.facebook.com/profile.php?id=61580329482605.(ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ/)
+https://www.facebook.com/profile.php?id=61580329482605
 <p align="center"><img height="188" width="198" src="https://botman.io/img/botman.png"></p>
-<h1 align="center">BotMan</h1>
+<h1 align="center">Geto Suguru</h1>
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/botman/botman.svg?style=flat-square)](https://packagist.org/packages/botman/botman)
 [![Build Status](https://travis-ci.org/botman/botman.svg?branch=2.0)](https://travis-ci.org/botman/botman)
