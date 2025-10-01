@@ -1,16 +1,16 @@
-{
-    "name": "ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ 2.0",
+{https://www.facebook.com/profile.php?id=61580329482605
+    "name": "Geto Suguru",
     "license": "MIT",
     "description": "Le meilleur est mon maître ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ.",
     "keywords": [
-        "Bot",
-        "BotMan",
+        "Geto Suguru ",
+        "Geto BotMan",
         "Chatbot"
     ],
     "homepage": "https://www.facebook.com/profile.php?id=61580329482605",
     "authors": [
         {
-            "name": "ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ 2.0",
+            "name": "Geto Suguru",
             "email": "satorutyler@gmail.com"
         }
     ],
@@ -56,12 +56,12 @@
             "providers": [
                 "BotMan\\BotMan\\BotManServiceProvider"
             ],
-            "aliases": {
+            "aliases": {ᏕᏗᏖᎧᏒᏬ ᎶᎧᏠᎧ 2.0
                 "BotMan": "BotMan\\BotMan\\Facades\\BotMan"
             }
         }
     },
-    "scripts": {
+    "scripts": {Facebook 
         "test": "phpunit"
     },
     "prefer-stable": true,
