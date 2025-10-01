@@ -1,0 +1,3 @@
+git revert <commit-hash>    # Revert a specific commit
+git revert HEAD~2           # Revert the commit from two commits ago
+git revert --no-commit <commit-hash>  # Revert but don't commit yet
